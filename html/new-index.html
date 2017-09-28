@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蘑菇街</title>
+    <link rel="stylesheet" href="../css/new-index.css"/>
+</head>
+<body>
+<!--布局-->
+<div class="buju">
+    <div class="buju_left" id="buju_left">
+        <!--主体-->
+    <!--顶部悬浮滚动-->
+    <div id="headerTop" class="main_cleft_header">
+    <section class="gongdong">
+    	<div class="gd_main">
+    		<div class="gd_one">
+    		   <img src="../img/img-index/bi.png"><span>全部商品分类</span><img src="../img/img-index/sou.png">
+    	    </div>
+    	    <div class="gd_two">
+    		   <span>搜商品<img src="../img/img-index/sou.png"></span>
+    		   <input style="width: 315px;height: 34px;border: none;"  type="text" placeholder="珠光眼影"/>
+    		   <input style="width: 100px;height: 34px;background: #f25;float: right;border: none;border-radius: 5%;font-size: 16px;color: #FFFFFF; cursor: pointer;" type="button" value="搜索" />
+    	   </div>
+    	</div>
+    	
+    </section>    
+    </div>
+    <!--导航-->
+    <!--<nav>
+       <div style="margin-left: 90px;"><a><img src="../img/img-index/1.png">蘑菇街</a></div>
+        <div style="margin-left: 250px">
+            <ul id="menuUI">
+                <li><a>登录</a></li>
+                <li>
+                	<a>我的订单</a>
+                	<img src="../img/img-index/4.png">
+                </li>
+                <li>
+                	<a>购物车</a>
+                	<img src="../img/img-index/3.png">
+                	<div class="">购物车里没有商品！</div>
+                </li>
+                <li>
+                	<a>客户服务</a>
+                	<img src="../img/img-index/6.png">
+                	<ol>
+                		<li>消费者服务</li>
+                		<li>商家服务</li>
+                		<li>规则中心</li>
+                	</ol>
+                </li>
+                <li>
+                	<a>我的小店</a>
+                	<img style="width: 17px;height: 14px;" src="../img/img-index/5.png">
+                	<img src="../img/img-index/6.png">
+                	<ol>
+                		<li>管理后台</li>
+                		<li>商家社区</li>
+                		<li>商家培训</li>
+                		<li>市场入驻</li>
+                	</ol>
+                </li>
+            </ul>
+        </div>
+    </nav>-->
+    
+    
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    <p>df</p>
+    
+    
+    
+    
+    </div>
+    <div class="buju_right">
+    <!--右边侧边栏-->
+        <div class="mr_top" id="mr_top2">
+            <a>
+                <i class="iconfont icon-gouwuche"></i>
+                <p class="m_tex">购物车</p>
+            </a>
+        </div>
+        <div class="mr_top" id="mr_top2">
+            <a>
+                <i class="iconfont icon-youhuiquan"></i>
+                <p class="m_tex">优惠券</p>
+            </a>
+        </div>
+        <div class="mr_top" id="mr_top2">
+            <a>
+                <i class="iconfont icon-qianbaohuaban"></i>
+                <p class="m_tex">钱包</p>
+            </a>
+        </div>
+        <div class="mr_top" id="mr_top2">
+            <a>
+                <i class="iconfont icon-zuji"></i>
+                <p class="m_tex">足迹</p>
+            </a>
+        </div>
+       <div class="dibu" id="dibu">
+       	<a>
+       		<img src="../img/img-index/6.png" />
+       		<p>Top</p>
+       	</a>
+    </div>
+        
+</div>
+</body>
+</html>
+<!--<script src="../js/index.js"></script>-->
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+/*右边侧边栏鼠标滑动变色*/
+$(function(){
+	$("#mr_top2").hover(
+		function(){
+			$(this).css('background','red');
+		},
+		function(){
+			$(this).css('background','#202020');
+		}
+	)
+})
+/*回到顶部*/
+var scrollTop=600;
+$(".dibu")[0].onclick=function(){
+//var incScrollTop=scrollTop/8;
+//var timer1=setInterval(function(){
+//	scrollTop=scrollTop-incScrollTop;
+//	if(scrollTop<=0){
+//		scrollTop=0;
+//		clearInterval(timer1);
+//		document.body.scrollTop=scrollTop;
+//	}
+//	
+//},30);
+   document.body.scrollTop=0;
+   document.documentElement.scrollTop=0;
+}
+</script>

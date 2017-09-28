@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="../css/nomal.css" />
+	<link rel="stylesheet" type="text/css" href="../css/Login.css"/>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+	</head>
+	<body>
+		<div class="main">
+		   <!--头部-->
+		   <div class="toubu">
+		   	
+		   </div>
+		   <!--主体-->
+		   <section class="content">
+		   	
+		   	<img src="../img/img-login/upload_541i9di2b3icf9j13f24e0bg7b1i6_1920x600.png" />
+		   	<div class="con_tex">
+		   		<div class="tax_one">
+		   			<div class="t_login">
+		   				<div class="lo_te1">
+		   					<a style="color: #FF0080;" href="#">普通登录</a>
+		   					
+		   				</div>
+		   				<div class="lo_te1">
+		   					<a style="color: #3c3c3c;border: none;" href="#">手机无密码登录</a>	
+		   				</div>
+		   			</div>
+		   		</div>
+		   		<div id="inpBtn">
+		   		<div class="biaoq1"><input id="userName" name="userName" type="text" placeholder="用户名/邮箱/手机号" /></div>
+		   		 <div class="bioq"><input id="password" name="password" type="text" placeholder="密码"/></div>
+		   		 </div>
+		   		 <div class="registerLogin">
+		   		 	<input id="loginBtn" class="loginBtn" type="button" value="登录"></input>
+		   		 </div>
+		   		 <div class="biaoq3">
+		   		 	<a href="#"><img src="../img/img-login/upload_8d4dd486c18961b55lf0hbe5ebf7l_18x19.png">微信登录</a>
+		   		 	<a href="#"><img src="../img/img-login/upload_5763lkilh8f7abid345gbhh167d79_19x19 (1).png">QQ登录</a>
+		   		 </div>
+		   		 <div class="biaoq4"><a>忘记密码</a></div>
+		   	</div>
+		   </section>
+		</div>
+		<footer>
+			
+		</footer>
+	</body>
+</html>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript">
+$(function(){
+	$("footer").load("nomal.html footer");
+	$(".toubu").load("nomal.html header");
+});
+
+//ajax登录连接
+$(".loginBtn").click(function(){
+	$.ajax({
+		type:"post",
+		url:"../php/login.php",
+		data:{
+			userName:$("#userName").val(),
+			password:$("#password").val()
+			},
+		async:true,
+		success:function(data){
+			
+			console.log(data)
+		}
+	});
+	
+})
+</script>

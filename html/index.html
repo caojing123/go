@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蘑菇街-首页</title>
+    <link rel="stylesheet" href="../css/index.css"/>
+</head>
+<body>
+<!--布局-->
+<div class="buju">
+    <div class="buju_left">
+        <!--主体-->
+        <!--导航-->
+    <nav>
+       <div style="margin-left: 90px;"><a><img src="../img/img-index/1.png">蘑菇街</a></div>
+        <div style="margin-left: 150px">
+            <ul id="menuUI">
+                <li><a>登录</a></li>
+                <li><a><img src="../img/img-index/4.png">我的订单</a></li>
+                <li class="xuant1">
+                	<a><img src="../img/img-index/3.png">购物车</a>
+                	<div class="candan" id="candan"><span>购物车里没有商品！</span></div>
+                </li>
+                <li class="xuant2">
+                	<a>客户服务<img src="../img/img-index/6.png"></a>
+                	<ol class="cd1">
+                		<li>消费者服务</li>
+                		<li>商家服务</li>
+                		<li>规则中心</li>
+                	</ol>
+                </li>
+                <li class="xuant3">
+                	<a><img style="width: 17px;height: 14px;" src="../img/img-index/5.png">我的小店<img src="../img/img-index/6.png"></a>
+                	<ol class="cd1">
+                		<li>管理后台</li>
+                		<li>商家社区</li>
+                		<li>商家培训</li>
+                		<li>市场入驻</li>
+                	</ol>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        <!--<ul class="anqiu1">-->
+            <!--<li>消费者服务</li>-->
+            <!--<li>商家服务</li>-->
+            <!--<li>规测中心</li>-->
+        <!--</ul>-->
+        <!--头部-->
+        <header>
+            <div><img style="width: 240px;height: 90px;"  src="../img/img-index/wd.png"></div>
+            <div class="bu1">
+                <h6 style="color:#FF0080;float: left">搜商</h6>
+                <input id="search" class="search"  type="text" value="金丝绒时尚套装">
+                <input id="searchBtn" class="searchBtn" type="button" value="搜索">
+            </div>
+            <div><img style="width: 220px;height: 90px; margin-left: 50px;" src="../img/img-index/wu.png"></div>
+        </header>
+        <!--主体-->
+        <section class="main">
+        	<div class="danh">
+        		<div class="dh_one">
+        			<img src="../img/img-index/we.png">
+        			<span>主题市场</span>
+        		</div>
+        		<div class="dh_two">
+        			<a href="#">省钱团购</a>
+        			<a href="#">省钱团购</a>
+        			<a href="#">省钱团购</a>
+        		</div>
+        	</div>
+        	<!--轮播和菜单-->
+        	<div class="zhut1">
+        		<div class="c_menu">
+        			
+        		</div>
+        		<div class="zhut_luob">
+        			<!--<img src="../img/img-index/170917_3behhbghj213j04fhicdh8aj97eee_778x440.jpg_900x9999.v1c7E.70.webp" />-->
+        		</div>
+        		<div class="user">
+        			
+        		</div>
+        	</div>
+        	<div class="">
+        		
+        	</div>
+        </section>
+    </div>
+    <div class="buju_right">
+    <!--右边侧边栏-->
+        <!--<div class="mr_top">
+            <a>
+                <img src="../img/img-index/hang1.png"/>
+                <p class="m_tex">购物车</p>
+            </a>
+        </div>
+        <div class="mr_top">
+            <a>
+                <img src="../img/img-index/hang2.png"/>
+                <p class="m_tex">优惠券</p>
+            </a>
+        </div>
+        <div class="mr_top">
+            <a>
+                <img src="../img/img-index/hang3.png"/>
+                <p class="m_tex">钱包</p>
+            </a>
+        </div>
+        <div class="mr_top">
+            <a>
+                <img src="../img/img-index/hang4.png"/>
+                <p class="m_tex">足迹</p>
+            </a>
+        </div>-->
+
+        
+</div>
+</div>
+</body>
+</html>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	 $('#candan').mouseenter(function () {
+        $(this).css('display','block');
+     }).mouseleave(function () {
+        $(this).css('display','none');
+     })
+
+	
+
+})
+</script>

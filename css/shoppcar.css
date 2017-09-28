@@ -1,0 +1,286 @@
+html,body,div,p,dl,dt,dd,ul,li,ol,table,tr,td,form,hr,h1,h2,h3,h4,h5,h6,img,input{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: inline-block;
+    border: 0;
+}
+li{
+    list-style: none;
+}
+/*布局*/
+.buju{
+    width: 100%;
+    height:100%;
+}
+/*主体*/
+.buju_left{
+    width: 1349px;
+    height:100%;
+    float: left;
+}
+
+/*导航*/
+nav{
+    width: 1349px;
+    height:32px;
+    display: flex;
+    justify-content:space-between;
+    color: #666;
+    font-size: 12px;
+   align-items: center;
+    margin-bottom: 0;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+div{
+    flex: 1;
+}
+nav div ul{
+
+}
+nav div ul li{
+    float: left;
+    margin: 0px 10px;
+}
+/*nav div ul li a{*/
+    /*!*background: url("../img/img-index/tiao.png") no-repeat left;*!*/
+/*}*/
+
+/*head*/
+header{
+	width: 1349px;
+    height:73px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+.hea{
+    width: 1200px;
+    height:66px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.bu1{
+    
+}
+/*商品清单主体*/
+section{
+	width: 1200px;
+	height: 647px;
+	margin: 0 auto;
+}
+/*主体1*/
+.tibu1{
+	width: 1200px;
+	height: 38px;
+	margin-top: 30px;
+}
+.tibu1 ul li{
+	width: 97px;
+	height: 38px;
+	float: left;
+	margin: 0px 10px;
+}
+.tibu1 li:nth-child(1){
+	color: #f57;
+	
+    border-bottom: 3px solid #f57;
+}
+.tibu1 a{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.tibu2{
+	width: 1200px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	background: #f2f2f2;
+    border: 1px solid #ddd;
+    line-height: 50px;
+}
+.t_one{
+	margin: 0px 40px;
+	font-size: 12px;
+	
+}
+.t_one ul li{
+	float: left;
+	align-items: center;
+	margin-right: 60px;
+}
+.tibu3{
+	width: 1200px;
+	height: 65px;
+	margin: 0 auto;
+	line-height: 56px;
+}
+.tibu3 span{
+	width: 1199px;
+	height: 19px;
+	line-height: 19px;
+	margin-left:40px;
+	color: #333333;
+	font-size: 14px;
+	margin-bottom: 80px;
+	
+}
+/*tibu4*/	
+.tibu4{
+	width: 1200px;
+	height: 111px;
+	display: flex;
+	justify-content: space-between;
+	background: #fff6f6;
+    border: 1px solid #ddd;
+}
+.t_ones{
+	height: 111px;
+	line-height: 111px;
+	margin: 0px 40px;
+	font-size: 12px;
+	float: left;
+}
+.t_ones a{
+	margin-top: 50px;
+}
+.t_one1{
+	margin: 0px 40px;
+	font-size: 12px;
+	float: left;
+	margin: 0 auto;
+}
+
+.t_one1 ul li{
+	float: left;
+	margin-right: 50px;
+	line-height: 20px;
+	margin-top: 20px;
+	line-height: 30px;
+}
+.t_one1 ul li:nth-child(2){
+	margin-left: -10px;
+}
+.t_one1 ul li:nth-child(3){
+	margin-left: -5px;
+	
+}
+.t_one1 ul li:nth-child(4){
+	margin-right: 80px;
+	color: #FF5777;
+	font-size: 18px;
+}
+.t_one1 ul li span:nth-child(3){
+	width: 27px;
+	height: 27px;
+	border: 1px solid #999999;
+}
+.t_one1 ul li input:nth-child(3){
+	width: 45px;
+	height: 27px;
+	border: 1px solid #999999;
+}
+/*fixed*/
+.fix_foot{
+	width: 1200px;
+	height: 52px;
+	display: flex;
+	margin: 0 auto;
+	border: 1px solid #CCCCCC;
+}
+.fix_foot div{
+	flex: 1;
+	margin: 0 auto;
+}
+.ft_one ul li{
+	float: left;
+}
+.ft_one{
+	float: left;
+}
+/*右边侧边栏*/
+.buju_right{
+    position: fixed;
+    right: 0px;
+    width: 30px;
+    height: 100%;
+    float: left;
+    background: #202020;
+    z-index: 9999;
+    top: 0;
+    color: #fff;
+    font-size: 12px;
+    align-items: center;
+}
+.mr_top{
+    width: 30px;
+    height: 92px;
+
+}
+.m_tex{
+    margin-left: 10px;
+}
+.mr_top a p{
+    width: 20px;
+    height:100%;
+}
+/*字体图标样式*/
+/*字体图标开始*/
+
+@font-face {
+    font-family: "iconfont";
+    src: url('../font/iconfont.eot?t=1506230595445'); /* IE9*/
+    src: url('../font/iconfont.eot?t=1506230595445#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+    url('../font/iconfont.ttf?t=1506230595445') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg?t=1506230595445#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-form:before { content: "\e6a2"; }
+
+.icon-1111120:before { content: "\e614"; }
+
+.icon-fangzi:before { content: "\e67d"; }
+
+.icon-wode:before { content: "\e621"; }
+
+.icon-addition_fill:before { content: "\e6e0"; }
+
+.icon-xiaoxi:before { content: "\e639"; }
+
+.icon-sousuo:before { content: "\e651"; }
+
+.icon-cart:before { content: "\e600"; }
+
+.icon-saoyisaoerweimasaomasaomiao:before { content: "\e60e"; }
+
+
+/*字体图标结束*/
+
+div i{
+    display: block;
+    font-size: 32px;
+}
+div .iconfont{
+    font-size: 32px;
+}

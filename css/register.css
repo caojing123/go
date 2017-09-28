@@ -1,0 +1,152 @@
+html,body,div,p,dl,dt,dd,ul,li,ol,table,tr,td,form,hr,h1,h2,h3,h4,h5,h6,img,input{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+img{
+    display: inline-block;
+    border: 0;
+}
+li{
+    list-style: none;
+}
+
+/*content*/
+.content{
+	width: 1349px;
+	height: 600px;
+	position: relative;
+}
+.content img{
+	width: 1349px;
+	height: 100%;
+}
+.con_tex{
+	position: absolute;
+	width: 402px;
+	height: 329px;
+	top:80px;
+	left: 850px;
+	background-color: #ffeceb;
+}
+.tax_one{
+	width: 402px;
+	height: 57px;
+	border-bottom: 1px solid #999999;
+}
+.t_login{
+	
+}
+.lo_te1{
+	width: 394px;
+	height: 57px;
+	
+}
+.lo_te1 h3{
+	align-items: center;
+	margin-left: 40px;	
+	line-height: 55px;
+    font-size: 14px;
+    font-weight: 700px;
+	
+	
+}
+.biaoq1{
+	width: 314px;
+	height: 40px;
+	color: #999999;
+	font-size: 14px;
+	margin: 20px 40px;
+	float: left;
+	
+}
+.biaoq1 select{
+	width: 110px;
+	height: 40px;
+}
+.biaoq1 input{
+	width: 194px;
+	height: 40px;
+	border: 1px solid #ccc;
+	background-color: #ffeceb;
+	margin-left: 3px;
+}
+
+.bioq{
+	width: 314px;
+	height: 40px;
+	color: #999999;
+	font-size: 14px;
+	margin: 3px 40px;
+	float: left;
+	
+	
+}
+.bioq span{
+	width: 110px;
+	height: 40px;
+	background: #ff5777;
+	 border-radius: 2px;
+	 float: left;
+}
+.bioq span a{
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 10px;
+    margin-left:12px;
+}
+.bioq input{
+	width: 194px;
+	height: 40px;
+	border: 1px solid #ccc;
+	background-color: #ffeceb;
+	float: left;
+	margin-left: 8px;
+	}
+.regBtn{
+	width: 314px;
+	height: 45px;
+	background: #ff5777;
+    border-radius: 2px;
+    color: #fff;
+	font-size: 12px;
+	line-height: 40px;
+	margin: 10px 40px;
+	border:2px solid #ffefef;
+}
+/*.biaoq2 a{
+	margin-left: 150px;
+	
+}*/
+.biaoq3{
+	width: 314px;
+	height: 20px;
+	color: #333333;
+	font-size: 12px;
+	margin: 20px 40px;
+	margin: 0 auto;
+	
+}
+.biaoq3 {
+	align-items: center;
+	text-align: center;
+	margin-left:-18px;
+}
+.biaoq4{
+	
+	width: 314px;
+	height: 20px;
+	margin: 10px 40px;
+	margin:  0 auto;
+	
+}
+.biaoq4 a{
+	text-align: right;
+	color: #999999;
+	font-size: 12px;
+   margin-left: 230px;
+}

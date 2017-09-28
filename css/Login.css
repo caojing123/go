@@ -1,0 +1,136 @@
+html,body,div,p,dl,dt,dd,ul,li,ol,table,tr,td,form,hr,h1,h2,h3,h4,h5,h6,img,input{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: inline-block;
+    border: 0;
+}
+li{
+    list-style: none;
+}
+
+/*content*/
+.content{
+	width: 1349px;
+	height: 600px;
+	position: relative;
+}
+.content img{
+	width: 1349px;
+	height: 100%;
+}
+.con_tex{
+	position: absolute;
+	width: 400px;
+	height: 348px;
+	top:80px;
+	left: 850px;
+	background-color: #ffefef;
+}
+.tax_one{
+	width: 400px;
+	height: 54px;
+	border-bottom: 1px solid #999999;
+}
+.t_login{
+	
+}
+.lo_te1{
+	width: 197px;
+	height: 54px;
+	float: left;	
+	
+}
+.lo_te1 a{
+	width: 129px;
+	height: 52px;
+	float: left;
+	margin: 0 auto;
+	border-bottom: 2px solid #FF0080;
+	align-content: center;
+	align-items: center;
+	margin-left: 40px;	
+	line-height: 55px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700px;
+	
+	
+}
+.lo_te1 a:nth-child(2){
+	background-image: url(../img/img-login/upload_ie4tmnzrmuydmmbqhazdambqgqyde_46x46.png) no-repeat right;
+}
+.biaoq1 input{
+	width: 314px;
+	height: 42px;
+	border: 1px solid #ccc;
+	color: #999999;
+	font-size: 14px;
+	margin: 10px 40px;
+	background-color: #ffefef;
+}
+.bioq input{
+	width: 314px;
+	height: 42px;
+	border: 1px solid #ccc;
+	color: #999999;
+	font-size: 14px;
+	margin: 10px 40px;
+	background-color: #ffefef;
+}
+.loginBtn{
+	width: 314px;
+	height: 40px;
+	background: #ff5777;
+    border-radius: 2px;
+    color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	margin: 15px 40px;
+	border:2px solid #ffefef;
+}
+/*.biaoq2 a{
+	margin-left: 150px;
+	
+}*/
+.biaoq3{
+	width: 314px;
+	height: 40px;
+	color: #999999;
+	font-size: 12px;
+	margin: 30px 40px;
+	margin: 0 auto;
+}
+.biaoq3 a{
+	margin: 0 20px;
+	align-items: center;
+	color: #999999;
+	text-align: center;
+	margin-left: 0px;
+}
+.biaoq3 img{
+	width: 19px;
+	height: 19px;
+}
+.biaoq4{
+	
+	width: 314px;
+	height: 40px;
+	margin: 40px 40px;
+	margin:  0 auto;
+	
+}
+.biaoq4 a{
+	text-align: right;
+	color: #999999;
+	font-size: 12px;
+   margin-left: 260px
+}
